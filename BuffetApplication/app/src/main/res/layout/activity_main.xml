@@ -11,7 +11,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:background="@color/color1"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:layout_gravity="center_horizontal">
 
 
@@ -45,7 +46,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="8"
         android:id="@+id/scrollView"
         android:background="@color/color2"
         android:layout_gravity="bottom" >
@@ -93,7 +95,8 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:layout_gravity="center_horizontal">
 
         <Button
@@ -120,6 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="扫一扫"
+            android:onClick="ToScan"
             android:id="@+id/button3" />
 
         <Button
